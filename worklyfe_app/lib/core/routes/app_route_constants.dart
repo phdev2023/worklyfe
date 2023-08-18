@@ -11,4 +11,5 @@ class MyAppRouteConstants {
   static const String welcomeRouterName = 'welcome';
   static const String onBoardingRouterName = 'onboarding';
   static const String otpRouterName = 'otp';
+  static const String signupRouterName = 'signup';
 }
