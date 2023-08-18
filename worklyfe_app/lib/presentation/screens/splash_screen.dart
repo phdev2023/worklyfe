@@ -19,8 +19,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   Future _showDashBoard() async {
     await Future.delayed(const Duration(milliseconds: 500), () {
-      GoRouter.of(context)
-                  .pushNamed(MyAppRouteConstants.homeRouteName);
+      GoRouter.of(context).pushNamed(MyAppRouteConstants.loginRouterName);
     });
   }
 
